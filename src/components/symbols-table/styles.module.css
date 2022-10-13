@@ -1,0 +1,49 @@
+.symbolsTable {
+    display: grid;
+    grid-template-rows: repeat(5, 63px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+
+    padding: 20px;
+}
+
+.numbers {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+
+}
+
+.symbol:first-of-type {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    font-size: 50px;
+    width: 63px;
+    height: 63px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.symbol {
+    grid-column-start: 4;
+    grid-row-start: 5;
+    font-size: 50px;
+    width: 63px;
+    height: 63px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.symbol:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    border-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.symbol {
+    width: 63px;
+    height: 63px;
+    font-size: 50px;
+
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.symbol:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    border-color: transparent;
+    cursor: pointer;
+}
